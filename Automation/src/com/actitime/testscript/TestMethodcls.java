@@ -15,7 +15,11 @@ static {
 	driver.get("https://demo.actitime.com/");
 	LoginPage1 l = new LoginPage1(driver);
 	l.setLogin("admin", "manager");
-	
-	
     }
+   
+   @Test
+   public void status()
+   {
+	   System.out.println("hi");
+   }
 }
